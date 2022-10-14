@@ -1,0 +1,61 @@
+html{
+    margin:  50px 100px 50px 100px;
+}
+body{
+    margin-left: 100p;
+    margin-top: 50p;
+}
+/*HEADER*/
+
+header nav ul{
+  display: flex;
+  align-items: flex-end;
+}
+header nav{
+    display: flex;
+    justify-content: right;
+}
+header ul:first-of-type{
+    margin-right: 10px;
+}
+#logo{
+    float: left;
+    margin-right: 10px;
+}
+
+/*MAIN BODY*/
+
+main{
+    width: 960px;
+}
+main section img{
+    img
+    background-image: url("img/hr-img.png");
+    background-repeat: repeat-x;
+}
+h1{
+font-size: 50px;
+font-weight: bolder;
+}
+#article-title{
+    text-align: left;
+}
+#article-title p{
+    color: grey;
+}
+#print-logo{
+   float: right;
+}
+#article-title p:first-of-type{
+    float: right;
+    margin-bottom: 30px;
+}
+
+article{
+    line-height: 2;
+}
+
+#about-me{
+    display: flex;
+}
+/* FOOTER*/
