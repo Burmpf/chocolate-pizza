@@ -1,6 +1,7 @@
 html{
     margin:  50px 100px 50px 100px;
 }
+
 body{
     margin-left: 100p;
     margin-top: 50p;
@@ -11,16 +12,29 @@ header nav ul{
   display: flex;
   align-items: flex-end;
 }
+
 header nav{
     display: flex;
     justify-content: right;
 }
+
 header ul:first-of-type{
     margin-right: 10px;
 }
+
 #logo{
     float: left;
     margin-right: 10px;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Allura', cursive;
+    font-weight: 800;
+}
+
+header p {
+    font-size: 10px;
 }
 
 /*MAIN BODY*/
@@ -28,34 +42,78 @@ header ul:first-of-type{
 main{
     width: 960px;
 }
-main section img{
-    img
-    background-image: url("img/hr-img.png");
-    background-repeat: repeat-x;
+
+h2{
+    font-size: 50px;
+    font-weight: bolder;
 }
-h1{
-font-size: 50px;
-font-weight: bolder;
-}
+
 #article-title{
     text-align: left;
 }
+
 #article-title p{
     color: grey;
 }
+
 #print-logo{
    float: right;
 }
+
 #article-title p:first-of-type{
     float: right;
     margin-bottom: 30px;
 }
 
 article{
+    margin-top: 15px;
+    margin-bottom: 20px;
     line-height: 2;
 }
 
+article img{
+    margin-top: 20px;
+}
+
 #about-me{
+    margin-top:30px;
     display: flex;
 }
+h3 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom:10px;
+}
+
+#about-me img {
+    margin-right: 15px;
+}
+
+#about-me p {
+    font-size: 20px;
+}
+
+#about-me ul {
+    width:600px;
+}
+#share {
+    color:aliceblue;
+    margin-left: 50px;
+    width:250px;
+    height:60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid rgb(123, 36, 36);
+    background-color: rgb(123, 36, 36);
+}
+
 /* FOOTER*/
+footer {
+    text-align: center;
+    margin-top:50px;
+}
+footer img {
+    margin-bottom: 20px;
+    float: center;
+}
